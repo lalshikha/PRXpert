@@ -1,5 +1,5 @@
-import { createClient, getChangedFiles, createReview } from './github';
-import { calculateRisk } from './risk';
+import { createClient, getChangedFiles, createReview } from './github.js';
+import { calculateRisk } from './risk.js';
 
 async function main() {
   const token = process.env.GITHUB_TOKEN!;
